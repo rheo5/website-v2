@@ -30,7 +30,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="shrink-0 grow-0 flex flex-col fixed h-full w-32 z-10">
+    <div className="shrink-0 grow-0 flex flex-col fixed w-18 sm:w-32 z-10">
       <ul className="hidden md:flex flex-col max-w-32 items-center">
         {projects.map(({ id, name, image, link }) => (
           <li
