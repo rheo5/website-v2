@@ -7,17 +7,17 @@ import { MdClose } from "react-icons/md";
 
 const Home = () => {
   return (
-    <div className="w-full h-full">
+    <div className="w-full min-h-screen">
       <img
         src={bglight}
         alt="bg"
         className="top-0 left-0 w-full h-screen object-cover"
       />
       {/* <img src="https://64.media.tumblr.com/fa16ba923a8bb8c447eaab9aad534a75/tumblr_nfvigoHWT61qlhvfoo1_500.gifv" alt="bg" className="top-0 left-0 w-full h-screen object-cover"/> */}
-      <div className="absolute top-0 w-full h-screen">
-        <div className="px-32 w-full md:h-full overflow-y-auto">
-          <div className="py-8 flex flex-col items-center justify-center md:h-full md:flex-row lg:gap-36 md:gap-10 gap-20">
-            <div className="w-96 md:mb-40 border-2 border-white">
+      <div className="absolute top-0 w-full h-dvh md:h-screen overflow-y-scroll md:overflow-hidden">
+        <div className="px-32 w-full md:h-full">
+          <div className="md:py-8 my-10 md:my-0 relative flex flex-col items-center justify-center md:h-full md:flex-row lg:gap-36 md:gap-10 gap-20">
+            <div className="w-60 sm:w-96 md:mb-40 border-2 border-white">
               <div className="px-3 font-pixel bg-gray-300 flex justify-between items-center">
                 <p>me.png</p>
                 <div className="flex gap-3">
@@ -29,10 +29,10 @@ const Home = () => {
               <img
                 src={me}
                 alt="me"
-                className="border-l-8 border-r-8 border-b-8 border-gray-300"
+                className="md:pt-0 border-l-8 border-r-8 border-b-8 border-gray-300"
               />
             </div>
-            <div className="w-96 md:mt-20 border-2 border-white">
+            <div className="w-60 sm:w-96 mb-10 md:mb-0 md:mt-10 lg:md:mt-16 border-2 border-white">
               <div className="px-3 font-pixel bg-gray-300 flex justify-between items-center">
                 <p>about_me.txt</p>
                 <div className="flex gap-3">
@@ -49,13 +49,13 @@ const Home = () => {
                 <p className="px-4 font-pixel text-xl font-medium">
                   recently :
                 </p>
-                <ul className="px-6 list-disc font-pixel text-lg">
+                <ul className="px-6 list-none font-pixel text-lg">
                   <li>
-                    2nd year studying software engineering @ university of
-                    waterloo
+                    <b>-</b> 2nd year studying software engineering @ university
+                    of waterloo
                   </li>
                   <li>
-                    swe intern @{" "}
+                    <b>-</b> swe intern @{" "}
                     <a
                       href="https://www.augmenta.ai/"
                       target="_blank"
@@ -64,16 +64,24 @@ const Home = () => {
                       augmenta
                     </a>
                   </li>
-                  <li>been reading a lot to fulfill my new years goals</li>
+                  <li>
+                    <b>-</b> been reading a lot to fulfill my new years goals
+                  </li>
                 </ul>
                 <br></br>
                 <p className="px-4 font-pixel text-xl font-medium">
                   looking forward to :
                 </p>
-                <ul className="px-6 list-disc font-pixel text-lg">
-                  <li>getting into product management (pm) !</li>
-                  <li>gaining more experience as swe</li>
-                  <li>enter my twenties !</li>
+                <ul className="px-6 list-none font-pixel text-lg">
+                  <li>
+                    <b>-</b> getting into product management (pm) !
+                  </li>
+                  <li>
+                    <b>-</b> gaining more experience as swe
+                  </li>
+                  <li>
+                    <b>-</b> enter my twenties !
+                  </li>
                 </ul>
               </div>
             </div>

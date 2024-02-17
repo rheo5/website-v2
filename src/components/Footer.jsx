@@ -6,7 +6,7 @@ import resume from "../assets/resume.pdf";
 
 const Footer = () => {
   return (
-    <div className="md:fixed bottom-0 w-full border-t-4 border-gray-300 z-20">
+    <div className="fixed bottom-0 w-full border-t-4 border-gray-300 z-20">
       <div className="flex bg-violet-500 align center h-11 gap-3 px-2 items-center">
         <div className="">
           <p className="bg-white rounded-full font-pixel px-4 text-3xl cursor-pointer">
@@ -14,7 +14,7 @@ const Footer = () => {
           </p>
         </div>
         <a href="https://github.com/rheo5" target="_blank" title="github">
-          <img src={github} alt="github" className="w-7 cursor-pointer" />
+          <img src={github} alt="github" className="w-7 cursor-pointer"/>
         </a>
         <a
           href="https://www.linkedin.com/in/rachel-heo/"
