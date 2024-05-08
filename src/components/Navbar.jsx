@@ -27,6 +27,12 @@ const Navbar = () => {
       image: "https://cdn-icons-png.flaticon.com/512/365/365852.png",
       link: "https://github.com/rheo5/WeatherBox",
     },
+    {
+      id: 4,
+      name: "WordStorm",
+      image: "https://cdn-icons-png.flaticon.com/512/8541/8541744.png",
+      link: "https://github.com/rheo5/wordstorm",
+    },
   ];
 
   return (
