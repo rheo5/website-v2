@@ -1,3 +1,3 @@
-# Personal Website version 2
+# Personal Website
 
 made with React and Tailwind
