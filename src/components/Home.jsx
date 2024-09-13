@@ -57,11 +57,11 @@ const Home = () => {
                   <li>
                     <b>-</b> swe intern @{" "}
                     <a
-                      href="https://www.augmenta.ai/"
+                      href="https://www.playstation.com/en-ca/"
                       target="_blank"
                       className="text-blue-500"
                     >
-                      augmenta
+                      SONY PLAYSTATION
                     </a>
                   </li>
                   <li>
