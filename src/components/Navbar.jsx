@@ -33,6 +33,18 @@ const Navbar = () => {
       image: "https://cdn-icons-png.flaticon.com/512/8541/8541744.png",
       link: "https://github.com/rheo5/wordstorm",
     },
+    {
+      id: 5,
+      name: "LoanLens",
+      image: "https://cdn-icons-png.flaticon.com/512/3427/3427826.png",
+      link: "https://github.com/rheo5/LoanLens",
+    },
+    {
+      id: 6,
+      name: "Chess",
+      image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Chess_Icon.png/768px-Chess_Icon.png",
+      link: "https://github.com/rheo5/Chess"
+    }
   ];
 
   return (
@@ -94,11 +106,11 @@ const Navbar = () => {
                 <MdClose className="text-xs" />
               </div>
             </div>
-            <ul className="flex flex-row gap-5 px-4 py-4 h-full border-l-8 border-r-8 border-b-8 border-gray-300">
+            <ul className="flex flex-wrap px-4 py-4 h-full border-8 border-gray-300 overflow-y-auto justify-around">
               {projects.map(({ id, name, image, link }) => (
                 <li
                   key={id}
-                  className="text-black text-center text-xs font-pixel px-2 py-2 cursor-pointer w-14 text-wrap"
+                  className="text-black text-center text-xs font-pixel px-2 py-2 cursor-pointer w-14 h-20"
                 >
                   <div>
                     <a
