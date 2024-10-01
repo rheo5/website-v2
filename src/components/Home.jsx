@@ -51,7 +51,7 @@ const Home = () => {
                 </p>
                 <ul className="px-6 list-none font-pixel text-lg">
                   <li>
-                    <b>-</b> 2nd year studying software engineering @ university
+                    <b>-</b> 3rd year studying software engineering @ university
                     of waterloo
                   </li>
                   <li>
